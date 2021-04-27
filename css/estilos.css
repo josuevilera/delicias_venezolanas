@@ -1,0 +1,62 @@
+body {
+    text-align: Left;
+    width: 790px;
+    margin: auto;
+    padding: 40px;
+}
+
+#qlq {
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+div {
+    background-color: lavenderblush;
+}
+
+header {
+    border: 1px solid #999;
+}
+
+#catálogo {
+    background-color: #999;
+    padding: 5px;
+    border: 3px solid transparent;
+    margin: 5%;
+}
+
+#Scomida {
+    background-color: wheat;
+    border: 1px solid black;
+    padding: 15px;
+    margin: 5%;
+}
+
+#Sbebida {
+    background-color: wheat;
+    border: 1px solid black;
+    padding: 15px;
+    margin: 5%;
+}
+
+#Ssalsa {
+    background-color: wheat;
+    margin: 5%;
+    border: 1px solid black;
+    padding: 15px;
+    margin: 5%;
+}
+
+#descgeneral {
+    background-color: blanchedalmond;
+    border: 1px solid black;
+    padding: 15px;
+    margin: 5%;
+}
+
+header,
+nav,
+section,
+footer {
+    display: block;
+}
