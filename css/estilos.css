@@ -1,63 +1,13 @@
-
-#titulo {
-    font-size: 20px;
-    font-family: sans-serif;
-    font-weight: bold;
-    background: #FFFBB9;
+.plato{
+    color: red;
 }
 
-#catálogo {
-    padding: 5px, 15px;
-    text-align: left;
-    font: 14px, sans-serif, bold;
-    background-color: #ccc;
+.sec{
+    font-size: 35;
+
+    padding: 22px;
 }
 
-#ALLcatálogo {
-    font-family: sans-serif;
-    font-size: 20px;
-}
-
-header, section, footer, aside, nav, article, #ALLcatálogo {
-    display:block
-}
-
-body {
-    padding: 50px;
-    text-align: left;
-    width: 750px;
-    margin: auto;
-}
-
-div {
-    padding: 45px;
-    width: 650px;
-    border: 1px, solid, black;
-    margin: 15px auto;
-    background-color: lavenderblush;
-}
-
-#Scomida {
-    padding: 20px;
-    border: 1px solid black;
-    margin: 5%;
-    background-color: wheat;
-}
-
-#Sbebida {
+#nav{
     padding: 15px;
-    border: 1px solid black;
-    margin: 5%;
-    background-color: wheat;
-}
-
-#Ssalsa {
-    padding: 15px;
-    border: 1px solid black;
-    margin: 5%;
-    background-color: wheat;
-}
-
-footer {
-    text-align: center;
 }
