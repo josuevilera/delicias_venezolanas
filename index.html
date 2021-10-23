@@ -9,220 +9,245 @@
 
     <link rel="stylesheet" href="css/estilos.css">
     <script src="js/funcionabilidad.js"></script>
-    <link rel="stylesheet" href="css/whatsapp.css">
 
 </head>
 
 <body>
 
-    <h1>Delicias Venezolanas</h1>
+    <!--
+        Botòn de whatsapp
+    -->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+    </a>
 
     <header>
 
+        <div id="titre" class="flex-center">
+
+            <h1>Delicias Venezolanas</h1>
+
+            <h2>¡Este es un negocio familiar venezolano que busca compartir la dulzura de nuestros platos con cada uno de ustedes!</h2>
+
+        </div>
+
     </header>
-    
-    <section class=seccomida>
 
-    <!--
-        comienzo de la seccion de COMIDA
-    -->
 
-    <h1 class="sec">Secciòn de Comidas</h1>
 
-    <!--
-        platos de entrada. 
-        //tequeños//
-    -->
-    
-    <h2 class="plato">Platos de Entrada</h2>
+    <section class="seccomida">
 
-    <div>
-        <h3>Tequeños</h3>
-        
-        <ul>
-            <li>Queso</li>
-            
-            <li>Chocolate</li>
-        </ul>
-    </div>
-    
-    <!--
-        platos fuertes. 
-        //arepas// 
-        //baby arepas// 
-        //empanadas// 
-    -->
+        <!--
+            EN CASO DE ACTUALIZACIÒN, AÑADIR DE COMIDAS:
 
-    <h2 class="plato">Platos Fuertes</h2>
+            HALLACAS Y PAN DE JAMÒN //PLATOS NAVIDEÑOS - ESPECIAL
+            CACHAPAS //FUERTE
+            PAELLA VENEZOLANA //FUERTE
+            FRESAS CON CREMA //POSTRES
+            PATACONES //ENTRADA
+            MALTÌN POLAR "MALTA" (BEBIDA CON CEBADA SIN ALCOHOL) //BEBIDAS
+        -->
 
-    <!--
-        menù de arepas normales
-    -->
-    
-    <div>
-        <h3>Arepas</h3>
-        
-        <ul>
-            <li>De Pollo</li>
-            
-            <li>Dominò</li>
-            
-            <li>Vegana</li>
-            
-            <li>Pelùa</li>
-            
-            <li>Reina Pepeada</li>
-            
-            <li>Queso y Jamòn</li>
-            
-            <li>La Catira</li>
-        </ul>
-    </div>
+        <h1 class="sec" id="com">Secciòn de Comidas</h1>
 
-    <!--
-        menù de baby arepas 
-        (cuatro arepas a elecciòn de sabores de las normales)
-    -->
-    
-    <div>
-        <h3>Baby Arepas</h3>
-        
-        <ul>
-            <li>Cuatro arepas a selecciòn</li>
-        </ul>
-    </div>
+        <article class="platoentrada">
 
-    <!--
-        menù de empanadas
-    -->
-    
-    <div>
-        <h3>Empanadas</h3>
-        
-        <ul>
-            <li>Carne Mechada</li>
-            
-            <li>Pollo</li>
-            
-            <li>Jamón y Queso</li>
-        </ul>
-    </div>
+            <h2 id="ent" class="plato">Platos de Entrada</h2>
 
-    <!--
-        platos dèbiles.
-        //panchos//
-    -->
-    
-    <h2 class="plato">Plato Dèbil</h2>
+            <div>
 
-    <!--
-        ùnico plato dèbil por el momento
-    -->
-    
-    <div>
-        <h3>Panchos</h3>
-    </div>
+                <!--
+                el id "comc" se refiere a cualquier comida o bebida DEFINIDA
+                ejemplo: arepa, refresco. simplemente la definiciòn
+            -->
+
+                <h3 id="comc">Tequeños</h3>
+
+                <ul>
+                    <li>Queso</li>
+
+                    <li>Chocolate</li>
+                </ul>
+
+            </div>
+
+        </article>
+
+        <article class="platofuerte">
+
+            <!--
+            platos fuertes. 
+            //arepas// 
+            //baby arepas// 
+            //empanadas// 
+        -->
+
+            <h2 id="fue" class="plato">Platos Fuertes</h2>
+
+            <!--
+                menù de arepas normales
+            -->
+
+            <div>
+
+                <h3 id="comc">Arepas</h3>
+
+                <ul>
+                    <li>De Pollo</li>
+
+                    <li>Dominò</li>
+
+                    <li>Pelùa</li>
+
+                    <li>Reina Pepeada</li>
+
+                    <li>Queso y Jamòn</li>
+                </ul>
+
+            </div>
+
+            <!--
+                menù de baby arepas 
+                (cuatro arepas a elecciòn de sabores de las normales)
+            -->
+
+            <div>
+
+                <h3 id="comc">Baby Arepas</h3>
+
+                <ul>
+                    <li>Cuatro arepas a selecciòn</li>
+                </ul>
+
+            </div>
+
+            <!--
+                menù de empanadas
+            -->
+
+            <div>
+
+                <h3 id="comc">Empanadas</h3>
+
+                <ul>
+                    <li>Carne Mechada</li>
+
+                    <li>Pollo</li>
+
+                    <li>Jamón y Queso</li>
+                </ul>
+
+            </div>
+
+        </article>
+
+        <article class="platodebil">
+
+            <h2 id="deb" class="plato">Plato Dèbil</h2>
+
+            <div>
+                <h3 id="comc">Panchos</h3>
+            </div>
+
+        </article>
+
     </section>
 
     <section class="secpostres">
-        
-    <!--
+
+        <!--
         comienzo de la secciòn de POSTRES
         //tres leches//
         //shots//
     -->
-    
-    <h1 class="sec">Secciòn de Postres</h1>
 
-    <!--
-        tres leches añadir descripciòn e imàgenes
-    -->
+        <h1 class="sec" id="pos">Secciòn de Postres</h1>
 
-    <div>
-        <h3>Tres Leches</h3>
-    </div>
+        <article class="postre1">
 
-    <!--
-        sabores para añadir luego... (imàgenes)
-        //oreo//
-        //frutos rojos//
-        //melocotòn//
-    -->
+            <div id="tres">
+                <h3 id="comc">Tres Leches</h3>
+            </div>
 
-    <div>
-        <h3>Shots</h3>
-    </div>
+        </article>
+
+        <article class="postre2">
+
+            <!--
+            sabores para añadir luego... (imàgenes)
+            //oreo//
+            //frutos rojos//
+            //melocotòn//
+        -->
+
+            <div id="shot">
+                <h3 id="comc">Shots</h3>
+            </div>
+
+        </article>
 
     </section>
 
-    <section>
+    <section class="secbebidas">
 
-    <!--
+        <!--
         comienzo de la secciòn de BEBIDAS
         //refrescos//
         //cervezas//
 
     -->
 
-    <h1 class="sec">Secciòn de Bebidas</h1>
+        <h1 class="sec" id="beb">Secciòn de Bebidas</h1>
 
-    <!--
-        refrescos disponibles
-        //coca-cola//
-        //pepsi-cola//
-        //fanta//
-        //sprite//
-    -->
+        <article class="bebida1">
 
-    <div>
-        <h3>Refrescos</h3>
-        
-        <ul>
-            <li>Coca-cola</li>
+            <div id="ref">
 
-            <li>Pepsi-cola</li>
+                <h3 id="comc">Refrescos</h3>
 
-            <li>Fanta</li>
+                <ul>
+                    <li>Coca-cola</li>
 
-            <li>Sprite</li>
-        </ul>
-    </div>
+                    <li>Pepsi-cola</li>
 
-    <!--
-        cervezas disponibles
-        //stella Artois//
-        //brahma//
-        //quilmes//
-        //heineken//
-    -->
+                    <li>Fanta</li>
 
-    <div>
-        <h3>Cervezas</h3>
+                    <li>Sprite</li>
 
-        <ul>
-            <li>Stella Artois</li>
+                </ul>
 
-            <li>Brahma</li>
+            </div>
 
-            <li>Quilmes</li>
+        </article>
 
-            <li>Heineken</li>
-        </ul>
-    </div>
+        <article class="bebida2">
+
+            <div id="cer">
+
+                <h3 id="comc">Cervezas</h3>
+
+                <ul>
+                    <li>Stella Artois</li>
+
+                    <li>Brahma</li>
+
+                    <li>Quilmes</li>
+
+                    <li>Heineken</li>
+                </ul>
+
+            </div>
+
+        </article>
 
     </section>
 
+    <br/><br/>
+
     <footer>
-        <h6>© 2021. Delicias Venezolanas, PYME. │ J.J. lastra 1730</h6>
 
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcnd.com/front-awesome/4.5.0/css/front-awesome.min.css">
-
-        <a href="https://api.whatsapp.com/send?phone=2996234350&text=Buen dìa cliente, este es nuestro nùmero de contacto." class="float" target="_blank">
-    
-        <i class="fa fa-whatsapp my-float"></i> </a>
 
     </footer>
-
+    <br/>
 </body>
-
-</html>
