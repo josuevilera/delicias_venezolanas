@@ -169,5 +169,6 @@ footer {
     grid-template-areas: "portada portada portada" "menu menu menu" "contenido contenido contenido-2";
 }
 
-
+.portada {
+    grid-area: portada;
 }
