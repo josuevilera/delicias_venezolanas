@@ -89,6 +89,11 @@ footer {
     opacity: 1;
 }
 
+.menu>li {
+    position: relative;
+    display: inline-block;
+}
+
 .menu li a {
     display: block;
     padding: 20px 30px;
