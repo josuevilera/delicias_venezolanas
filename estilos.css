@@ -37,6 +37,11 @@ body {
 
 /* * ETIQUETAS SUELTAS*/
 
+h1 {
+    margin-left: 20px;
+    padding: 10px;
+}
+
 footer {
     text-align: center;
 }
