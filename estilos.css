@@ -1,0 +1,115 @@
+/* * TODO ----- */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+body {
+    background: papayawhip;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+/* * PORTADA - imagen sobre texto ----- */
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#titre {
+    height: 280px;
+    width: 100%;
+    font-size: 20px;
+    justify-content: center;
+    background-image: url(portada.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+/* * ETIQUETAS SUELTAS*/
+
+footer {
+    text-align: center;
+}
+
+
+/* * SECCIONES DE COMIDA Y PLATOS ----- */
+
+.sec {
+    max-width: 100%;
+    margin: auto;
+    background: white;
+    text-align: center;
+    padding: 18px;
+}
+
+.plato {
+    text-align: left;
+    padding: 45px;
+}
+
+
+/* * NAV - MENU ----- */
+
+
+}
+.navegacion ul {
+    list-style: none;
+}
+
+/* * MENU ----- */
+.menu li:hover .submenu {
+    visibility: visible;
+    opacity: 1;
+}
+.menu li a {
+    display: block;
+    padding: 20px 30px;
+    color: black;
+    text-decoration: none;
+}
+.menu li a:hover {
+    color: black;
+    transition: all .3s;
+}
+.submenu {
+    position: absolute;
+    background: #333333;
+    width: 100%;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+}
+.menu li:hover .submenu {
+    visibility: visible;
+    opacity: 1;
+}
+
+/* * BOTÒN DE WHATSAPP */
+.float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+}
+
+}
