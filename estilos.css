@@ -172,3 +172,7 @@ footer {
 .portada {
     grid-area: portada;
 }
+
+.menu {
+    grid-area: menu;
+}
