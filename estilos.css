@@ -147,5 +147,11 @@ footer {
     z-index: 100;
 }
 
+.float:hover {
+    text-decoration: none;
+    color: #25d366;
+    background-color: #fff;
+}
+
 
 }
