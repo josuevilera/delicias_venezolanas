@@ -115,14 +115,23 @@ footer {
     transition: opacity 0.5s;
 }
 
-
+.submenu li a {
+    display: block;
+    padding: 15px;
+    color: white;
+    font-family: "Open sans";
+    text-decoration: none;
+    text-align: center;
 }
+
 .menu li:hover .submenu {
     visibility: visible;
     opacity: 1;
 }
 
+
 /* * BOTÒN DE WHATSAPP */
+
 .float {
     position: fixed;
     width: 60px;
@@ -137,5 +146,6 @@ footer {
     box-shadow: 2px 2px 3px #999;
     z-index: 100;
 }
+
 
 }
