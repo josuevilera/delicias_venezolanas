@@ -176,3 +176,11 @@ footer {
 .menu {
     grid-area: menu;
 }
+
+.contenido {
+    grid-area: contenido;
+}
+
+.contenido-2 {
+    grid-area: contenido-2;
+}
