@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Delicias Venezolanas</title>
+
+        <link rel="stylesheet" href="css/estilos.css">
+        <script src="js/funcionabilidad.js"></script>
+    </head>
+
+    <body>
+
+        <!--
+            PARA EL LUNES 01/11 TENER LISTO:
+
+            GALERÌA DE FOTOS TIPO LAZOS QUE SE MUEVA
+            QUE EL FOOTER TENGA ALGO EN MOVIMIENTO
+
+
+            css grid online: ayuda para formar la estructura de la pàgina
+
+            google fonts: da el tamaño de la letra, el ancho y como quedarÌa segmentada la pagina
+            coolors.co: da la paleta de colores 
+            color hunt.co: da todos los colores, da la definicion de los colores,definiciòn de para què se puede utilizar y los codigos del color para pegar en la pàgina
+
+            css script: para la expansiòn del menù
+            enjoy css: movimiento del menù
+            css animations generator: movimiento del menù + animaciones para la pàgina
+        -->
+
+        <div class="div2">
+            <div class="div1">
+
+                <!--
+                    Botòn de whatsapp
+                -->
+
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+                <a href="https://api.whatsapp.com/send?phone=+5491159537809&text=Hola! buen dìa! Para hacerte un pedido..." class="float" target="_blank">
+                    <i class="fa fa-whatsapp my-float"></i>
+                </a>
+            </div>
+        </div>  
+
+        <div class="container">
+            <div class="portada">
+                <header>
+                    <div id="titre" class="flex-center">
+                        <h1>
+                            Delicias<br/>Venezolanas
+                        </h1>
+                        
+                        <p><strong>¡Este negocio familiar busca compartir<br/>la dulzura de nuestros platos con todos ustedes!</strong></p>
+                    </div>
+                </header>
+            </div>
+         
+            <div class="menu">
+                <nav class="navegacion">
+
+                    <ul class="menu">
+
+                        <li><a href="#com"><strong>Comidas</strong></a>
+                            <ul class="submenu">
+                                <li><a href="#ent">Platos de Entrada</a></li>
+
+                                <li><a href="#fue">Platos Fuertes </a></li>
+
+                                <li><a href="#deb">Plato Dèbil </a></li>
+                            </ul>
+                        </li>
+
+                        <li><a href="#beb"><strong>Bebidas</strong></a>
+                            <ul class="submenu">
+                                <li><a href="#ref">Refrescos</a></li>
+
+                                <li><a href="#cer">Cervezas</a></li>
+                            </ul>
+                        </li>
+
+                        <li><a href="#pos"><strong>Postres</strong></a>
+                            <ul class="submenu">
+                                <li><a href="#tres">Tres Leches</a></li>
+
+                                <li><a href="#shot">Shots</a></li>
+                            </ul>
+                        </li>
+
+                    </ul>
+
+                </nav>
+            </div>
+
+            <!--
+                EN CASO DE ACTUALIZACIÒN, AÑADIR DE COMIDAS:
+
+                PATACONES //ENTRADA
+                CACHAPAS //FUERTE
+                PAELLA VENEZOLANA //FUERTE
+                MALTÌN POLAR "MALTA" (BEBIDA CON CEBADA SIN ALCOHOL) //BEBIDAS
+                FRESAS CON CREMA //POSTRES
+                HALLACAS Y PAN DE JAMÒN //PLATOS NAVIDEÑOS - ESPECIAL
+            -->
+
+            <div class="contenido">
+                <section id="com" class="seccomida">
+
+                    <h2 class="sec" id="com">Secciòn de Comidas</h2>
+
+                    <article id="platoentrada">
+                        <h3 id="ent" class="plato">Platos de Entrada</h3>
+
+                        <div>
+
+                            <!--
+                                el id "comc" se refiere a cualquier COMIDA o POSTRE definido
+                
+                                ejemplo: arepa, shot. simplemente la definiciòn
+                            -->
+
+                            <h4 id="comc">Tequeños </h4>
+                            <ul>
+                                <li id="lista">
+                                    <strong>Queso:</strong>
+                                    <em>1 Docena: 1100$ / Media Docena: 600$</em>
+
+                                    <img src="css/img/tequeños1.jpg" alt="tequeños de queso" width="400px" height="200px">
+                                </li>
+
+                                <li id="lista">
+                                    <strong>Chocolate:</strong>
+                                    <em>1 Docena: 1300$ / Media Docena: 800$</em>
+                                    
+                                    <img src="css/img/tequeños2.jpg" alt="tequeños de choco" width="400px" height="200px">
+                                </li>
+                            </ul>
+                        
+                        </div>
+                    
+                    </article>
+
+                    <article id="platofuerte">
+
+                        <!--
+                            platos fuertes. 
+                            //arepas// 
+                            //baby arepas// 
+                            //empanadas// 
+                        -->
+
+                        <h3 id="fue" class="plato">Platos Fuertes</h3>
+
+                        <div>
+
+                            <!--
+                                menù de arepas normales
+                            -->
+
+                            <h4 id="comc">Arepas</h4>
+                            <ul>
+                                <li id="lista">
+                                    <strong>De Pollo:</strong>
+                                    <em>C/U: 300$</em>
+                                
+                                    <img src="css/img/arepapollo.jpg" alt="arepa de pollo" width="400px" height="200px">
+                                </li>
+
+                                <li id="lista">
+                                    <strong>Dominò:</strong>
+                                    <em>C/U: 280$</em>
+                                
+                                    <img src="css/img/arepadomino.jpg" alt="arepa dominò" width="400px" height="200px">
+                                </li>
+
+                                <li id="lista">
+                                    <strong>Pelùa:</strong> 
+                                    <em>C/U: 310$</em>
+
+                                    <img src="css/img/arepapelua.jpg" alt="arepa pelùa" width="400px" height="200px">
+                                </li>
+
+                                <li id="lista">
+                                    <strong>Reina Pepiada:</strong>
+                                    <em>C/U: 300$</em>
+                                
+                                    <img src="css/img/arepapepiada.jpg" alt="arepa pepiada" width="400px" height="200px">
+                                </li>
+                            </ul>
+
+                        </div>
+
+                        <div>
+
+                            <!--
+                                menù de baby arepas 
+                                (cuatro arepas a elecciòn de sabores de las normales)
+                            -->
+
+                            <h4 id="comc">Baby Arepas</h4>
+                            <ul>
+                                <li id="lista">
+                                    <strong>Cuatro arepas a selecciòn:</strong> 
+                                    <em>$450</em>
+                                    
+                                    <img src="css/img/babyarepas.jpg" alt="baby arepas" width="400px" height="200px">
+                                </li>
+                            </ul>
+                    
+                        </div>
+
+                        <div>
+
+                            <!--
+                                menù de empanadas
+                            -->
+
+                            <h4 id="comc">Empanadas</h4>
+                            <ul>
+                                <li id="lista">
+                                    <strong>Carne Mechada:</strong>
+                                    <em>C/U: 240$</em>
+                                
+                                    <img src="css/img/empanadacarne.jpg" alt="empanada de carne" width="400px" height="200px">
+                                </li>
+
+                                <li id="lista">
+                                    <strong>Pollo:</strong>
+                                    <em>C/U: 260$</em>
+                                
+                                    <img src="css/img/empanadapollo.jpg" alt="empanada de pollo" width="400px" height="200px">
+                                </li>
+
+                                <li id="lista">
+                                    <strong>Jamòn y Queso:</strong>
+                                    <em>C/U: 220$</em>
+                                
+                                    <img src="css/img/empanadaqueso.jpg" alt="empanada de jamòn y queso" width="400px" height="200px">
+                                </li>
+                            </ul>
+                    
+                        </div>
+
+                    </article>
+
+                    <article id="platodebil">
+                        <h3 id="deb" class="plato">Plato Dèbil</h3>
+
+                        <div>
+                            <h4 id="comc">
+                                <strong>Panchos:</strong>
+                                <em>C/U: 200$</em>
+                                
+                                <img src="css/img/pancho.jpg" alt="pancho" width="400px" height="200px">
+                            </h4>
+                        </div>
+
+                    </article>
+
+                </section>
+            </div>
+
+            <div class="contenido-2">
+                <section id="secbebidas">
+
+                    <!--
+                        comienzo de la secciòn de BEBIDAS
+                    
+                        //refrescos//
+                        //cervezas//
+                    -->
+
+                    <h2 class="sec" id="beb">Secciòn de Bebidas</h2>
+
+                    <article>
+                        <div id="ref">
+
+                            <!--
+                                el id "bebc" se refiere a cualquier BEBIDA definida
+                
+                                ejemplo: refrescos. simplemente la definiciòn
+                            -->
+
+                            <h3 id="bebc">Refrescos</h3>
+                            <ul>
+                                <li id="lista">
+                                    <strong>Coca-cola:<br/></strong>
+                                    <em>2 Litros: 350$</em>
+                                
+                                    <img src="css/img/cocacola.jpg" alt="coca-cola" width="150px" height="200px">
+                                </li>
+
+                                <li id="lista">
+                                    <strong>Fanta:</strong>
+                                    <em>1.5 Litros: 290$</em>
+                                
+                                    <img src="css/img/fanta.jpg" alt="fanta" width="150px" height="200px">
+                                </li>
+
+                                <li id="lista">
+                                    <strong>Pepsi-cola: <br/></strong>
+                                    <em>2 Litros: 330$</em>
+                                
+                                    <img src="css/img/pepsi.jpg" alt="pepsi-cola" width="150px" height="200px">
+                                </li>
+
+                                <li id="lista">
+                                    <strong>Sprite:</strong>
+                                    <em>1.5 Litros: 290$</em>
+                                
+                                    <img src="css/img/sprite.jpg" alt="7 UP" width="150px" height="200px">
+                                </li>
+                            </ul>
+
+                        </div>
+                    </article>
+
+                    <article class="bebida2">
+                        <div id="cer">
+
+                            <h3 id="bebc">Cervezas</h3>
+                            <ul>
+                                <li id="lista">
+                                    <strong>Stella Artois:<br/></strong>
+                                    <em>700 ML: 250$</em>
+                                    
+                                    <img src="css/img/stella.jpg" alt="stella" width="150px" height="200px">
+                                </li>
+
+                                <li id="lista">
+                                    <strong>Brahma:</strong>
+                                    <em>1 Litro: 300$</em>
+                                
+                                    <img src="css/img/brahma.jpg" alt="brahma" width="150px" height="200px">
+                                </li>
+
+                                <li id="lista">
+                                    <strong>Heineken:<br/></strong>
+                                    <em>1 Litro: 320$</em>
+                                    
+                                    <img src="css/img/heineken.jpg" alt="heineken" width="150px" height="200px">
+                                </li>
+                            </ul>
+
+                        </div>
+                    </article>
+
+                </section>
+                
+                <section id="secpostres">
+
+                    <!--
+                        comienzo de la secciòn de POSTRES
+                    
+                        //tres leches//
+                        //shots//
+                    -->
+
+                    <h2 id="pos" class="sec">Secciòn de Postres</h2>
+
+                    <div id="postre">
+                        <article id="tres" class="postre1">
+                            <div>
+                                <h3 id="comc">Tres Leches:<br/>1 Porciòn: 300$</h3>
+
+                                <img src="css/img/tresleches.jpg" alt="el postre màs rico del mundo" width="150px" height="200px">
+                            </div>
+                        </article>
+
+                        <article id="shot" class="postre2">
+
+                            <!--
+                                sabores para añadir luego... (imàgenes)
+
+                                //oreo//
+                                //frutos rojos//
+                                //melocotòn//
+                            -->
+
+                            <div>
+                                <h3 id="comc">Shots:<br/>C/Unidad: 90$</h3>
+
+                                <img src="css/img/shots1.jpg" alt="shots" width="150px" height="200px">
+                            </div>
+
+                        </article>
+                    </div>
+
+                </section>
+            </div>
+        </div>
+
+        <footer>
+            <div id="ubicacion">
+
+                <!--
+                    Ubicaciòn del local
+                -->
+    
+                <h2 id="ubic"> Ubicaciòn del local </h2><br/>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3103.001263821157!2d-68.24448228503078!3d-38.94679950748964!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x960bc9348382a73f%3A0x97d5f794d61d72bd!2sLas%20Magnolias%20984%2C%20Q8316%20Neuqu%C3%A9n!5e0!3m2!1ses!2sar!4v1631727000550!5m2!1ses!2sar" width="350" height="30%" style="border:0" loading="lazy"></iframe><br/>
+               
+            </div>
+
+            <div id="definiciones">
+
+                <h2 id="ubic">¿Què son èstas comidas?</h2>
+
+                <!--<h3>-->
+                <em id="ubic"><strong>Tequeño:</strong> Consiste en una masa de harina de trigo frita, rellena de queso blanco u otros rellenos.</em><br>
+    
+                <em id="ubic"><strong>Arepa:</strong> Es una torta de masa o harina de maíz de forma circular y semi-aplanada que generalmente se cocina asada o frita, la cual puede contener diversos rellenos.</em><br/>
+            
+                <em id="ubic"><strong>Empanada:</strong> Es un envoltorio de masa de maíz con un relleno que puede ser de cualquier ingrediente comestible y cuya cocción es resultado de la fritura en aceite.</em><br/>
+                <!--</h3>-->
+
+            </div>
+        </footer>
+
+    </body>
+    
+</html>
