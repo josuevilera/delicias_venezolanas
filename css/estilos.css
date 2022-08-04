@@ -1,0 +1,373 @@
+/* TODO */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #FCF0C8;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+}
+
+footer {
+    background-color: #911F27;
+
+    padding: 5px;
+    margin: 5px;
+    
+}
+
+/* LETRAS DEL TÌTULO */
+
+h1 {
+    height: 13cm;
+    color: #630A10;
+    text-align: center;
+    margin: 260px 230px 10px 50px;
+}
+
+p {
+    height: 70px;
+    color: #630A10;
+    text-align:unset;
+    margin: 50px 10px 60px 100px;
+}
+
+/* PORTADA - IMAGEN PRINCIPAL */ 
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#titre {
+    height: 250px;
+    width: 100%;
+
+    font-size: 20px;
+
+    justify-content: center;
+    text-align: center;
+
+    background-image: url(portada.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+/* SECCIONES DE COMIDA Y PLATOS */
+
+.sec {
+    max-width: 100%;
+
+    padding: 18px;
+    margin: 0px 13px 0px 13px;
+
+    color: #FACE7F;
+    background: #630A10;
+
+    text-align: center;
+
+    border-radius: 67px;
+}
+
+#comc {
+    padding: 10px;
+    margin: 50px;
+
+    color: #630A10;
+    background-color: #FCF0C8;
+
+    text-align:center;
+
+    border-radius: 67px;
+}
+
+.plato {
+    padding: 10px;
+    margin: 25px;
+
+    color: #911F27;
+
+    text-align: initial;
+
+    border-radius: 67px;
+}
+
+#platoentrada {
+    text-align: center;
+
+    margin: 40px 30px 60px 30px;
+    padding: 5px;
+
+    background-color: #FACE7F;
+    border-radius: 67px;
+}
+
+#platofuerte {
+    text-align: center;
+
+    margin: 40px 30px 50px 30px;
+    padding: 5px;
+
+    background-color: #FACE7F;
+    border-radius: 67px;
+}
+
+#platodebil {
+    text-align: center;
+
+    margin: 40px 30px 50px 30px;
+    padding: 5px;
+
+    background-color: #FACE7F;
+    border-radius: 67px;
+}
+
+/* LISTA DE COMIDAS */
+
+#lista {
+    padding: 20px;
+    margin: 30px;
+
+    background-color: #FBF3E4;
+    
+    text-align: unset;
+
+    border-radius: 67px;
+}
+
+li{
+    list-style: none;
+}
+
+/* BEBIDAS */
+
+#bebc {
+    padding: 20px;
+    margin: 15px;
+    
+    color: #911F27;
+
+    text-align: initial;
+    border-radius: 67px;
+}
+
+#ref{
+    text-align: center;
+
+    margin: 35px 25px 40px 25px;
+    padding: 5px;
+
+    background-color: #FACE7F;
+    border-radius: 67px;
+}
+
+#cer{
+    text-align: center;
+
+    margin: 35px 25px 40px 25px;
+    padding: 5px;
+
+    background-color: #FACE7F;
+    border-radius: 67px;
+}
+
+/* POSTRE */
+
+#postre{
+    background-color: #FACE7F;
+
+    margin: 35px 25px 40px 25px;
+    padding: 5px;
+
+    border-radius: 67px;
+}
+
+.postre1 {
+    border-radius: 57px;
+
+    text-align: center;
+}
+
+.postre2{
+    border-radius: 57px;
+    padding: 10%;
+    margin: 10%;
+    text-align: center;
+}
+
+/* NAVEGACIÒN - MENÙ */
+
+.navegacion {
+    max-width: 90%;
+    margin: auto;
+
+    background: #F3C583;
+
+    text-align: center;
+    border-radius: 67px;
+}
+
+.navegacion ul {
+    list-style: none;
+}
+
+/* MENÙ */
+
+.menu{
+    position: sticky;
+    top: 0rem;
+}
+
+.menu li:hover .submenu {
+    visibility: visible;
+    opacity: 1;
+}
+
+.menu>li {
+    position: relative;
+    display: inline-block;
+}
+
+.menu li a {
+    display: block;
+    padding: 20px 30px;
+    color: #911F27;
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    color:#911F27;
+    transition: all .4s;
+}
+
+.submenu {
+    position: absolute;
+    background: #1B1A17;
+    width: 100%;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.5s;
+    border-radius: 10px;
+}
+
+.submenu li a {
+    display: block;
+    padding: 15px;
+    color: #FCF0C8;
+    font-family: "Open sans";
+    text-decoration: none;
+    text-align: center;
+}
+
+.menu li:hover .submenu {
+    visibility: visible;
+    opacity: 1;
+}
+
+/* BOTÒN DE WHATSAPP */
+
+.float{
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+}
+
+.float:hover{
+    text-decoration: none;
+    color: #25d366;
+    background-color: #fff;
+}
+
+.my-float{
+    margin-top: 16px;
+}
+
+/* BOTÒN DE WHATSAPP / CONTAINER - GRID */
+
+.div1{
+    grid-area: 5 / 5 / 6 / 6;
+}
+
+.div2{
+    grid-area: 2 / 2 / 3 / 3;
+}
+
+/* CONTAINER - GRID */
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0fr 0fr 0fr;
+    gap: 10px 5px;
+    grid-auto-flow: row;
+    grid-template-areas: "portada portada portada" "menu menu menu" "contenido contenido contenido-2";
+}
+
+.portada {
+    grid-area: portada;
+}
+
+.menu {
+    grid-area: menu;
+}
+
+.contenido {
+    grid-area: contenido;
+}
+
+.contenido-2 {
+    grid-area: contenido-2;
+}
+
+/* TIPO DE LETRA DEL FOOTER*/
+
+#ubic{
+    color: #630A10;
+
+    margin: 0px;
+    padding: 15px;
+}
+
+/* FOOTER - GOOGLE MAPS */
+
+#ubicacion{
+    text-align: center;
+    
+    border-radius: 67px;
+
+    background-color: #FBF3E4;
+
+    padding: 20px;
+    margin: 10px 240px 30px 240px;
+}
+
+/* FOOTER - DEFINICIONES */
+
+#definiciones {
+    border-radius: 67px;
+
+    background-color: #FBF3E4;
+
+    padding: 20px;
+    margin: 10px 50px;
+}
