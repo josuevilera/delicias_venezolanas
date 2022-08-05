@@ -369,23 +369,48 @@ li{
 .welcome-back {
     text-align: center;
     border: 1px solid;
-    border-radius: 9%;
+    border-radius: 29%;
     margin: 3% 24%;
-
+    color: #630A10;
+    background-color: #FBF3E4;
 }
 
-.formulario {
+.formulario-registro {
     text-align: center;
     border: 1px solid;
-    border-radius: 9%;
+    border-radius: 29%;
     margin: 3% 24%;
+    color: #630A10;
+    background-color: #FBF3E4;
+}
 
+.formulario-ingreso {
+    text-align: center;
+    border: 1px solid;
+    border-radius: 29%;
+    margin: 3% 24%;
+    color: #630A10;
+    background-color: #FBF3E4;
 }
 
 .container-form-sign-up {
     border: 1px solid;
     border-radius: 9%;
     margin: 3% 24%;
+    background-color: #630A10;
+
+}
+
+.button-redirect {
+    text-align: center;
+    background-color: #FBF3E4;
+    border: 1px solid;
+    border-radius: 9%;
+    margin: 2% 27%;
+}
+
+.text-redirect {
+    text-align: initial;
 }
 
 #botooon {

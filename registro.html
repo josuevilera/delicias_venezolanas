@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RegistroDV</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <script src="js/funcionabilidad.js"></script>
+</head>
+<body>
+    <div class="container-form-sign-up">
+        <div class="welcome-back">
+            <div class="message">
+                <h2>Bienvenido a Delicias Venezolanas!</h2>
+            </div>
+        </div>
+        <form class="formulario-registro">
+            <h2 class="create-account">Crear una cuenta</h2>
+
+            <label for="cargo">Seleccione cargo</label>
+            <select name="tiposDeCargos" id="cargo">
+                <option>Empleado</option>
+                <option>Dueño</option>
+                <option>Administrador</option>
+            </select><br/>
+            <input type="text" placeholder="Nombre"><br/>
+            <input type="text" placeholder="Apellido"><br/>
+            <input type="number" placeholder="DNI" maxlength="8"><br/>
+            <input type="password" placeholder="Clave"><br/>
+            <input type="button" value="Registrarse" id="botooon">
+
+        </form>
+
+    </div>
+    <div class="button-redirect">
+        <p class="text-redirect">En caso de encontrarse registrado... <a href="login.html">ingrese aquí</a> </p>
+    </div>
+    
+</body>
+</html>
