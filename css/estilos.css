@@ -364,3 +364,31 @@ li{
     padding: 20px;
     margin: 10px 50px;
 }
+
+/* login*/
+.welcome-back {
+    text-align: center;
+    border: 1px solid;
+    border-radius: 9%;
+    margin: 3% 24%;
+
+}
+
+.formulario {
+    text-align: center;
+    border: 1px solid;
+    border-radius: 9%;
+    margin: 3% 24%;
+
+}
+
+.container-form-sign-up {
+    border: 1px solid;
+    border-radius: 9%;
+    margin: 3% 24%;
+}
+
+#botooon {
+    margin: 12px;
+    padding: 3px;
+}
